@@ -1,0 +1,72 @@
+{
+  "imagesData": [
+    {
+      "id": 1,
+      "name": "Apartamento 1",
+      "url": "/images/apartment.jpg",
+      "isHidden": false,
+      "tags": ["sala", "mesa", "sofá", "quadro"]
+    },
+    {
+      "id": 2,
+      "name": "Apartamento 2",
+      "url": "/images/apartment1.jpg",
+      "isHidden": false,
+      "tags": ["luz", "sala"]
+    },
+    {
+      "id": 3,
+      "name": "Apartamento 3",
+      "url": "/images/apartment2.jpg",
+      "isHidden": false,
+      "tags": ["aquário", "moderno"]
+    },{
+      "id": 4,
+      "name": "Apartamento 4",
+      "url": "/images/apartment4.jpg",
+      "isHidden": false,
+      "tags": ["sofá", "sala"]
+    },{
+      "id": 5,
+      "name": "Apartamento 5",
+      "url": "/images/apartment5.jpg",
+      "isHidden": false,
+      "tags": ["candeeiro", "cama"]
+    },
+    {
+      "id": 6,
+      "name": "Apartamento 6",
+      "url": "/images/apartment6.jpg",
+      "isHidden": false,
+      "tags": ["sala", "sofá"]
+    },
+    {
+      "id": 7,
+      "name": "Apartamento 7",
+      "url": "/images/apartment7.jpg",
+      "isHidden": false,
+      "tags": ["sala", "sofá"]
+    },
+    {
+      "id": 8,
+      "name": "Apartamento 8",
+      "url": "/images/apartment8.jpg",
+      "isHidden": false,
+      "tags": ["sala", "cama"]
+    },
+    {
+      "id": 9,
+      "name": "Apartamento 9",
+      "url": "/images/apartment9.jpg",
+      "isHidden": false,
+      "tags": ["sala", "sofá"]
+    },
+    {
+      "id": 10,
+      "name": "Apartamento 10",
+      "url": "/images/apartment10.jpg",
+      "isHidden": false,
+      "tags": ["sala", "mesa"]
+    }
+  ]
+}

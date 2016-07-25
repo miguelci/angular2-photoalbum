@@ -1,0 +1,20 @@
+<h1>{{title}}</h1>
+<h2>
+  Add Tag:
+  <input type="text" #newTag>
+  <button (click)="addTag(newTag)">ADD</button>
+</h2>
+<div class="navbar-header">
+<ul class="nav navbar-nav navbar-right">
+  <li (click)="showAllImages()" [class.isSelected]="showAll.isSelected">{{ showAll.text | uppercase }}</li>
+  <li *ngFor="let tag of tags">
+    <span (click)="clickedTag(tag)" [class.isSelected]="tag.isSelected">{{tag.text | uppercase}}</span>
+    <i class="fa fa-close" (click)="removeTag(tag)"></i>
+  </li>
+</ul>
+</div>
+<div class="panel-body">
+  <div class="photo">
+    <img *ngFor="let image of images" [class.isHidden]="image.isHidden" [class.isVisible]="!image.isHidden" [src]="image.url">
+  </div>
+</div>
